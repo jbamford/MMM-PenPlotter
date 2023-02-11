@@ -3,6 +3,14 @@ Addapted for SVG support from https://github.com/AdamMoses-GitHub/MMM-ImageSlide
 
 The `MMM-PenPlotter` module is designed to display SVG animations, one at a time on a fixed interval, from one or many directories. These images can be shown in order or at random, one directory at a time or all at time. The image heights and widths can be fixed.
 
+
+https://user-images.githubusercontent.com/19673807/218282163-9e663652-8177-4c19-82dd-b85fd84c9b77.mp4
+
+
+https://user-images.githubusercontent.com/19673807/218282171-3bc547f3-dce7-4fbb-9878-da379b57f2cb.mp4
+
+
+
 ## Dependencies / Requirements
 
 This module requires no special dependencies. The only requirement is that the image directories you path to are fixed paths accessible to the Magic Mirror instance.
