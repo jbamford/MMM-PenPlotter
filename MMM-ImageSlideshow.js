@@ -16,11 +16,10 @@
  * 	MIT Licensed.
  */
  
-Module.register("MMM-ImageSlideshow", {
+Module.register("MMM-PenPlotter", {
 	// Default module config.
 	defaults: {
         // an array of strings, each is a path to a directory with images
-        // imagePaths: [ 'modules/MMM-ImageSlideshow/exampleImages' ],
 		imagePaths:[],
         // the speed at which to switch between images, in milliseconds 300000 = 5mins
 		slideshowSpeed: 65000,
@@ -51,7 +50,7 @@ Module.register("MMM-ImageSlideshow", {
         // set no error
 		this.errorMessage = null;
         if (this.config.imagePaths.length == 0) {
-            this.errorMessage = "MMM-ImageSlideshow: Missing required parameter."
+            this.errorMessage = "MMM-PenPlotter: Missing required parameter."
         }
         else {
             // create an empty image list
@@ -59,7 +58,7 @@ Module.register("MMM-ImageSlideshow", {
             // set beginning image index to -1, as it will auto increment on start
             this.imageIndex = -1;
             // ask helper function to get the image list
-            this.sendSocketNotification('IMAGESLIDESHOW_REGISTER_CONFIG', this.config);
+            this.sendSocketNotification('PENPLOTTER_REGISTER_CONFIG', this.config);
 			// do one update time to clear the html
 			this.updateDom();
 			// set a blank timer
@@ -69,12 +68,12 @@ Module.register("MMM-ImageSlideshow", {
 	// Define required scripts.
 	getStyles: function() {
         // the css contains the make grayscale code
-		return ["imageslideshow.css"];
+		return ["PenPlotter.css"];
 	},    
 	// the socket handler
 	socketNotificationReceived: function(notification, payload) {
 		// if an update was received
-		if (notification === "IMAGESLIDESHOW_FILELIST") {
+		if (notification === "PENPLOTTER_FILELIST") {
 			// check this is for this module based on the woeid
 			if (payload.identifier === this.identifier)
 			{
@@ -141,7 +140,6 @@ Module.register("MMM-ImageSlideshow", {
 
 					var obj = document.createElement('object');
 					
-					// obj.data = "modules/MMM-ImageSlideshow/example_svg/spiralbezier.svg"
 					obj.data = encodeURI(this.imageList[this.imageIndex]);
 					obj.type = "image/svg+xml"
 					obj.width ="100%"

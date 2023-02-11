@@ -14,7 +14,7 @@
 
 // call in the required classes
 var NodeHelper = require("node_helper");
-var FileSystemImageSlideshow = require("fs");
+var FileSystemPenPlotter = require("fs");
 
 // the main module helper create
 module.exports = NodeHelper.create({
@@ -60,7 +60,7 @@ module.exports = NodeHelper.create({
         // for each of the paths specified
         for (var pathIndex = 0; pathIndex < config.imagePaths.length; pathIndex++) {
             var currentPath = config.imagePaths[pathIndex];
-            var currentPathImageList = FileSystemImageSlideshow.readdirSync(path = currentPath);
+            var currentPathImageList = FileSystemPenPlotter.readdirSync(path = currentPath);
             // for each file in the current path
             if (currentPathImageList.length > 0) {
                 // create an empty list for images in the current path
@@ -105,7 +105,7 @@ module.exports = NodeHelper.create({
     },
     // subclass socketNotificationReceived, received notification from module
     socketNotificationReceived: function(notification, payload) {
-        if (notification === "IMAGESLIDESHOW_REGISTER_CONFIG") {
+        if (notification === "PENPLOTTER_REGISTER_CONFIG") {
             // add the current config to an array of all configs used by the helper
             this.moduleConfigs.push(payload);
             // this to self
@@ -115,7 +115,7 @@ module.exports = NodeHelper.create({
             // build the return payload
             var returnPayload = { identifier: payload.identifier, imageList: imageList };
             // send the image list back
-            self.sendSocketNotification('IMAGESLIDESHOW_FILELIST', returnPayload );
+            self.sendSocketNotification('PENPLOTTER_FILELIST', returnPayload );
         }
     },     
 });
