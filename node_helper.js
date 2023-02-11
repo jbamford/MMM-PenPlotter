@@ -8,6 +8,10 @@
  * Magic Mirror By Michael Teeuw http://michaelteeuw.nl
  * MIT Licensed.
  * 
+ * MMM-PenPlotter.js by Jason Bamford https://jbamford.github.io/
+ * MIT Licensed.
+ * 
+ * Derivate work of
  * Module MMM-ImageSlideshow By Adam Moses http://adammoses.com
  * MIT Licensed.
  */
