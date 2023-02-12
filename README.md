@@ -1,7 +1,7 @@
 # Module: PenPlotter
 Addapted for SVG support from https://github.com/AdamMoses-GitHub/MMM-ImageSlideshow
 
-The `MMM-PenPlotter` module is designed to display SVG animations, one at a time on a fixed interval, from one or many directories. These images can be shown in order or at random, one directory at a time or all at time. The image heights and widths can be fixed.
+The `MMM-PenPlotter` module is designed to display SVG animations. The SVG files are animated using CSS styling. The animation progressively draws a white line on a black background until it completes the entire SVG path. This creates the illusion that the line is magically rendered on the mirrored glass.
 
 Example Animations Included in the module(12 animations in total)
 
@@ -15,6 +15,12 @@ https://user-images.githubusercontent.com/19673807/218282244-71102f43-2679-4f0d-
 
 https://user-images.githubusercontent.com/19673807/218282240-08a0646f-8903-48aa-97ac-51a64322afe1.mp4
 
+
+## Inspiration
+Sisyphus, PenPlotters, and
+https://www.youtube.com/watch?v=7i78DSaMhls
+
+Additional documention comming on how to generate your own SVG animations
 
 ## Dependencies / Requirements
 
