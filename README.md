@@ -8,13 +8,13 @@ The `MMM-PenPlotter` module is designed to display SVG animations. The SVG files
 
 This module includes 12 ready-to-go animations. See a few examples below.
 
+https://user-images.githubusercontent.com/19673807/218282244-71102f43-2679-4f0d-b562-df4aeac87be8.mp4
+
 https://user-images.githubusercontent.com/19673807/218282163-9e663652-8177-4c19-82dd-b85fd84c9b77.mp4
 
 https://user-images.githubusercontent.com/19673807/218282171-3bc547f3-dce7-4fbb-9878-da379b57f2cb.mp4
 
 https://user-images.githubusercontent.com/19673807/218282236-0cef1900-dac9-4945-abe8-9296ac900285.mp4
-
-https://user-images.githubusercontent.com/19673807/218282244-71102f43-2679-4f0d-b562-df4aeac87be8.mp4
 
 https://user-images.githubusercontent.com/19673807/218282240-08a0646f-8903-48aa-97ac-51a64322afe1.mp4
 
