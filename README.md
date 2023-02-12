@@ -1,4 +1,7 @@
 # Module: PenPlotter
+
+## Render mesmerizing line animations on your mirror!
+
 Addapted for SVG support from https://github.com/AdamMoses-GitHub/MMM-ImageSlideshow
 
 The `MMM-PenPlotter` module is designed to display SVG animations. The SVG files are animated using CSS styling. The animation progressively draws a white line on a black background until it completes the entire SVG path. This creates the illusion that the line is magically rendered on the mirrored glass.
