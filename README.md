@@ -3,7 +3,7 @@ Addapted for SVG support from https://github.com/AdamMoses-GitHub/MMM-ImageSlide
 
 The `MMM-PenPlotter` module is designed to display SVG animations. The SVG files are animated using CSS styling. The animation progressively draws a white line on a black background until it completes the entire SVG path. This creates the illusion that the line is magically rendered on the mirrored glass.
 
-Example Animations Included in the module(12 animations in total)
+This module includes 12 ready-to-go animations. See a few examples below.
 
 https://user-images.githubusercontent.com/19673807/218282163-9e663652-8177-4c19-82dd-b85fd84c9b77.mp4
 
@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/19673807/218282240-08a0646f-8903-48aa-
 Sisyphus, PenPlotters, and
 https://www.youtube.com/watch?v=7i78DSaMhls
 
-Additional documention comming on how to generate your own SVG animations
+Additional documention comming on how to generate your own SVG animations. 
 
 ## Dependencies / Requirements
 
@@ -67,9 +67,9 @@ The following properties can be configured:
 		</tr>		
 		<tr>
 			<td><code>slideshowSpeed</code></td>
-			<td>Integer value, the length of time to show one image before switching to the next, in milliseconds.<br>
+			<td>Integer value, the length of time to show one image before switching to the next, in milliseconds. Make sure all the SVG animations are the same duration as the slideshowSpeed<br>
 				<br><b>Example:</b> <code>6000</code>
-				<br><b>Default value:</b> <code>10000</code>
+				<br><b>Default value:</b> <code>65000</code>
 				<br>This value is <b>OPTIONAL</b>
 			</td>
 		</tr>
