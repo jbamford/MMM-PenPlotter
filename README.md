@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/19673807/218282240-08a0646f-8903-48aa-
 
 ## Build Your own Animations 
 https://jbamford.github.io/Animate-SVG-Files-Breakdown/
-Accpeting pull requests
+Accpeting pull requests with new animations to add to the example_svg folder
 
 ## Inspiration
 Sisyphus, PenPlotters, and
