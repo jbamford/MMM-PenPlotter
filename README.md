@@ -18,6 +18,9 @@ https://user-images.githubusercontent.com/19673807/218282236-0cef1900-dac9-4945-
 
 https://user-images.githubusercontent.com/19673807/218282240-08a0646f-8903-48aa-97ac-51a64322afe1.mp4
 
+## Build Your own Animations 
+https://jbamford.github.io/Animate-SVG-Files-Breakdown/
+Accpeting pull requests
 
 ## Inspiration
 Sisyphus, PenPlotters, and
